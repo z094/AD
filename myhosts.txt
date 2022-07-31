@@ -1,0 +1,34 @@
+! Title: myhosts
+! Version:20210624-213144
+! 在ADH上使用的个人规则
+
+#############################
+#        自定义hosts
+#############################
+10.0.0.1 router.host
+10.0.0.4 k2p.host
+10.0.0.5 op.host
+10.0.0.6 nas.host
+10.0.0.7 adguard.host
+10.0.0.9 ubuntu.host
+10.0.0.80 sp.host
+10.0.0.81 qbit.host
+10.0.0.82 ha.host
+10.0.0.83 aria2.host
+10.0.0.84 bt.host
+10.0.0.85 win10.host
+127.0.0.1 www.tvmsheartbiturl.com
+127.0.0.1 iptvhelper2.bestv.com.cn
+
+39.156.69.79 baidu.com
+198.16.71.10 gm.iotcplatform.com
+114.67.98.218 cm.iotcplatform.com
+176.103.133.77 local.adguard.org
+176.103.133.136 api.adguard.com
+150.138.213.156 www.jovetech.com
+#############################
+#         自定义CNAME
+#############################
+||adgt.host^$dnsrewrite=NOERROR;CNAME;dns1.z094.top
+||client.wns.windows.com^$dnsrewrite=NOERROR;CNAME;wns.notify.windows.com.akadns.net
+||api.vc.bilibili.com^$dnsrewrite=NOERROR;CNAME;interface.biliapi.com
